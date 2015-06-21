@@ -1,5 +1,5 @@
 # Haskell + Node.js Minimal Sample
-Demonstrates a minimal code to produce a working (JavaScript only) nodejs application, also showing off how to depend on other nodejs modules.
+Demonstrates a minimal Haskell code to produce a working (JavaScript only) nodejs application, also showing off how to depend on other nodejs modules.
 
 We are basically writing an equivalent to this JavaScript code:
 
@@ -15,9 +15,9 @@ console.log(os.hostname());
 
 ##To run
 * You need [nodejs installed](https://nodejs.org/download/)
-* Then run: `node hello.jsexe/all.js`
+* Then run: `node test.jsexe/all.js`
 
 ##Resources
-http://weblog.luite.com/wordpress/
-https://nodejs.org/api/os.html
+* http://weblog.luite.com/wordpress/
+* https://nodejs.org/api/os.html
 
