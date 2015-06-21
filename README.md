@@ -1,25 +1,23 @@
 # Haskell + Node.js Minimal Sample
 Demonstrates a minimal code to produce a working (JavaScript only) nodejs application, also showing off how to depend on other nodejs modules.
 
-## Basic test, no JS specific stuff.
-This is easily done following the ghcjs doc, the Usage section:
-https://github.com/ghcjs/ghcjs
+We are basically writing an equivalent to this JavaScript code:
 
-Create a standard Haskell executable project with cabal.
-
-Create a Main.hs module, put a basic Hello World output into main.
-
-Build with: ghcjs -o hello src/Main.hs
-
-Test with: node hello.jsexe/all.js
-
-## Now make JavaScript calls via FFI
-Just import a standard node module and call a function like this in JavaScript:
-
+```javascript
 var os = require("os");
 console.log(os.hostname());
+```
 
-Inspiration from:
+##To build
+* First install ghcjs according to [GHCJS doc](https://github.com/ghcjs/ghcjs).
+* Clone this project.
+* run `ghcjs -o test src/Main.hs`
+
+##To run
+* You need [nodejs installed](https://nodejs.org/download/)
+* Then run: `node hello.jsexe/all.js`
+
+##Resources
 http://weblog.luite.com/wordpress/
 https://nodejs.org/api/os.html
 
