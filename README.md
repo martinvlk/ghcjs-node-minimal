@@ -1,5 +1,5 @@
 # Haskell + Node.js Minimal Sample
-Demonstrates a minimal Haskell code to produce a working (JavaScript only) nodejs application, also showing off how to depend on other nodejs modules.
+Demonstrates a minimal Haskell code to produce a working (JavaScript only) nodejs application, also shows how to depend on other nodejs modules.
 
 We are basically writing an equivalent to this JavaScript code:
 
